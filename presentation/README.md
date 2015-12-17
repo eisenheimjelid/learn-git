@@ -1,5 +1,4 @@
 # Presentation Slideshow
-=========
 
 A simple presentation about Git and Github in CSS and jQuery. Based on [Article on CodyHouse](http://codyhouse.co/gem/presentation-slideshow/)
 
