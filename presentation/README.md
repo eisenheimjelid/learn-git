@@ -1,10 +1,8 @@
-Presentation Slideshow
+# Presentation Slideshow
 =========
 
-A simple presentation template in CSS and jQuery.
+A simple presentation about Git and Github in CSS and jQuery. Based on [Article on CodyHouse](http://codyhouse.co/gem/presentation-slideshow/)
 
-[Article on CodyHouse](http://codyhouse.co/gem/presentation-slideshow/)
+## Objective
 
-[Demo](https://codyhouse.co/demo/presentation-slideshow/index.html)
- 
-[Terms](http://codyhouse.co/terms/)
+This presentation are ready for talks over 30 minutes, to explains basic concepts of concurrent versions systems, how to use more used commands and a few features.
