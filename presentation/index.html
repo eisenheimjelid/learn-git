@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,76 +9,101 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Presentation Slideshow | CodyHouse</title>
+
+	<title>GIT y Github | David Le&oacute;n</title>
 </head>
 <body>
 	<div class="cd-slideshow-wrapper">
 		<nav class="cd-slideshow-nav">
 			<button class="cd-nav-trigger">
-				Open Nav
+				Men&ucute;
 				<span aria-hidden="true"></span>
 			</button>
-			
+
 			<div class="cd-nav-items">
 				<ol>
-					<li><a href="#slide-1">Slide 1</a></li>
+					<li><a href="#portada">Portada</a></li>
+					<li><a href="#agenda">Agenda</a></li>
 					<li>
-						<a href="#slide-2">Slide 2</a>
+						<a href="#versiones">Controles de Versiones</a>
 						<ol class="sub-nav">
-							<li><a href="#slide-2">Slide 2 - Sub 1</a></li>
-							<li><a href="#slide-2">Slide 2 - Sub 2</a></li>
-							<li><a href="#slide-2">Slide 2 - Sub 3</a></li>
+							<li><a href="#versiones">Respaldos</a></li>
+							<li><a href="#versiones">Colaboración</a></li>
+							<li><a href="#versiones">Seguridad</a></li>
+							<li><a href="#versiones">Caracteristicas</a></li>
+							<li><a href="#versiones">Forma de trabajo</a></li>
 						</ol>
 					</li>
-					<li><a href="#slide-3">Slide 3</a></li>
-					<li><a href="#slide-4">Slide 4</a></li>
-					<li><a href="#slide-5">Slide 5</a></li>
 					<li>
-						<a href="#slide-6">Slide 6</a>
+						<a href="#github">Github</a>
 						<ol class="sub-nav">
-							<li><a href="#slide-6">Slide 6 - Sub 1</a></li>
-							<li><a href="#slide-6">Slide 6 - Sub 2</a></li>
+							<li><a href="#github">Registro</a></li>
+							<li><a href="#github">Llaves SSH</a></li>
+							<li><a href="#github">clone // checkout</a></li>
+							<li><a href="#github">commit</a></li>
+							<li><a href="#github">pull // push</a></li>
+							<li><a href="#github">branch // tag</a></li>
+							<li><a href="#github">hooks</a></li>
 						</ol>
 					</li>
+					<li><a href="#dudas">Dudas</a></li>
 				</ol>
 			</div> <!-- .cd-nav-items -->
 		</nav> <!-- .cd-slideshow-nav -->
-		
+
 		<ol class="cd-slideshow">
-			<li class="visible" id="slide-1">
+			<li class="visible" id="portada">
 				<div class="cd-slider-content">
 					<div class="content-wrapper">
-						<h2>Presentation Slideshow</h2>
-						<p>A simple presentation template in CSS &amp; jQuery.</p>
-						<svg version="1.1" id="icon-keyboard" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="186px" height="60px" viewBox="0 0 186 60" enable-background="new 0 0 186 60" xml:space="preserve">
-						<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M119,59H67c-1.10457,0-2-0.89543-2-2V36
-							c0-1.10457,0.89543-2,2-2h52c1.10457,0,2,0.89543,2,2v21C121,58.10457,120.10457,59,119,59z"/>
-						<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M119,26H67c-1.10457,0-2-0.89543-2-2V3
-							c0-1.10457,0.89543-2,2-2h52c1.10457,0,2,0.89543,2,2v21C121,25.10457,120.10457,26,119,26z"/>
-						<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M55,59H3c-1.10457,0-2-0.89543-2-2V36
-							c0-1.10457,0.89543-2,2-2h52c1.10457,0,2,0.89543,2,2v21C57,58.10457,56.10457,59,55,59z"/>
-						<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M183,59h-52c-1.10457,0-2-0.89543-2-2V36
-							c0-1.10457,0.89543-2,2-2h52c1.10457,0,2,0.89543,2,2v21C185,58.10457,184.10457,59,183,59z"/>
-						<path fill="#FFFFFF" d="M92.54309,49.97196l-3.23061-7.26889C89.16552,42.37243,89.40755,42,89.76938,42h6.46124
-							c0.36182,0,0.60386,0.37243,0.4569,0.70307l-3.23061,7.26889C93.28094,50.36787,92.71906,50.36787,92.54309,49.97196z"/>
-						<path fill="#FFFFFF" d="M92.54309,10.02804l-3.23061,7.26889C89.16552,17.62757,89.40755,18,89.76938,18h6.46124
-							c0.36182,0,0.60386-0.37243,0.4569-0.70307l-3.23061-7.26889C93.28094,9.63213,92.71906,9.63213,92.54309,10.02804z"/>
-						<path fill="#FFFFFF" d="M25.02804,46.04309l7.26889-3.23062C32.62757,42.66552,33,42.90755,33,43.26938v6.46124
-							c0,0.36183-0.37243,0.60386-0.70307,0.45691l-7.26889-3.23062C24.63213,46.78095,24.63213,46.21905,25.02804,46.04309z"/>
-						<path fill="#FFFFFF" d="M160.97197,46.04309l-7.26891-3.23062C153.37242,42.66552,153,42.90755,153,43.26938v6.46124
-							c0,0.36183,0.37242,0.60386,0.70306,0.45691l7.26891-3.23062C161.36787,46.78095,161.36787,46.21905,160.97197,46.04309z"/>
-						</svg>
+						<h2>GIT y github</h2>
+						<p><img src="img/git_logo.png" title="GIT" /></p>
+						<h3>Sistemas de Control de Versiones</h3>
+						<p>&nbsp;</p>
+						<p>
+							David Leon V. |
+							<a href="https://twitter.com/jelidleon" title="Jelid Leon"  target="_blank">@jelidleon</a>
+							<a href="http://bit.ly/github-dav" title="Presentación"  target="_blank">http://bit.ly/github-dav</a>
+							<a href="https://github.com/eisenheimjelid/learn-git" title="Repositorio en Github"  target="_blank">Repositorio</a>
+						</p>
 					</div>
 				</div>
 			</li>
 
-			<li id="slide-2">
+			<li class="visible" id="agenda">
+				<div class="cd-slider-content">
+					<div class="content-wrapper">
+						<h2>Agenda</h2>
+						<p>&nbsp;</p>
+						<ul>
+							<li><b>Beneficios de GIT</b></li>
+							<li>Respaldos</li>
+							<li>Colaboraci&oacute;n</li>
+							<li>Seguridad</li>
+							<li>Caracteristicas</li>
+							<li><b>Github</b></li>
+							<li>Registro</li>
+							<li>Llaves SSH</li>
+							<li>clone // checkout</li>
+							<li>commit</li>
+							<li>pull // push</li>
+							<li>branch // tag</li>
+							<li>hooks</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+
+			<li id="versiones">
 				<ol class="sub-slides">
 					<li>
 						<div class="cd-slider-content">
 							<div class="content-wrapper">
-								<h2>Slider #2</h2>
+								<h2>Tipos de controles de versiones</h2>
+								<img src="img/git_logo.png" title="GIT" class="logover"/>
+								<img src="img/subversion_logo.png" title="Subversion" class="logover"/>
+								<img src="img/bazaar_logo.png" title="Bazaar" class="logover"/>
+								<img src="img/mercurial_logo.png" title="Mercurial" class="logover"/>
+								. . .
 							</div>
 						</div>
 					</li>
@@ -86,7 +111,11 @@
 					<li>
 						<div class="cd-slider-content">
 							<div class="content-wrapper">
-								<h2>Slider #2 - Sub #1</h2>
+								<h2>Respaldos</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>¿Guardar en el mismo disco duro un respaldo?</p>
+								<p>¿Hacer respaldos incrementales?</p>
+								<p>¿Puedes obtener el archivo original de cierta fecha?</p>
 							</div>
 						</div>
 					</li>
@@ -94,7 +123,11 @@
 					<li>
 						<div class="cd-slider-content">
 							<div class="content-wrapper">
-								<h2>Slider #2 - Sub #2</h2>
+								<h2>Colaboraci&oacute;n</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>¿Dond&eacute; tener disponible el código o repositorio?</p>
+								<p>¿El almacenamiento tradicional en la nube es la solución?</p>
+								<p>¿Cu&aacute;ntas personas integran el equipo de trabajo?</p>
 							</div>
 						</div>
 					</li>
@@ -102,67 +135,197 @@
 					<li>
 						<div class="cd-slider-content">
 							<div class="content-wrapper">
-								<h2>Slider #2 - Sub #3</h2>
+								<h2>Seguridad</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>¿El c&oacute;digo esta en un lugar seguro?</p>
+								<p>¿C&oacute;mo se envia el c&oacute;digo hasta el servidor?</p>
+								<p>¿En cada transacci&oacute; se usa SSH o SSL?</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>Caracteristicas</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									Mecanismo de almacenamiento de los elementos que deba gestionar (ej. archivos de texto, imágenes, documentación...).
+								</p><p>
+									Posibilidad de realizar cambios sobre los elementos almacenados (ej. modificaciones parciales, añadir, borrar, renombrar o mover elementos).
+								</p><p>
+									Registro histórico de las acciones realizadas con cada elemento o conjunto de elementos (normalmente pudiendo volver o extraer un estado anterior del producto).
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>Forma de trabajo</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									<img src="img/git_tree.png" title="Árbol de rutas"/>
+								</p>
 							</div>
 						</div>
 					</li>
 				</ol> <!-- .sub-slides -->
 			</li>
 
-			<li id="slide-3">
-				<div class="cd-slider-content">
-					<div class="content-wrapper">
-						<h2>Slider #3</h2>
-					</div>
-				</div>
+			<li id="github">
+				<ol class="sub-slides">
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>Github</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<img src="img/github_1.png" title="GIT" class="logover"/>
+								<img src="img/github_3.jpg" title="GIT" class="logover"/>
+								<img src="img/github_2.gif" title="GIT" class="logover"/>
+								<img src="img/github_4.png" title="GIT" class="logover"/>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>Registro</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									<a href="https://github.com" target="_blank">
+										<img src="img/github_1.png" title="GIT" class="logover"/>
+										<br />Github
+									</a>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>Llaves SSH</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<img src="img/key_ssh.png" title="Llaves SSH" class="logover"/>
+								<p><a href="https://help.github.com/articles/generating-ssh-keys/" target="_blank">Generar llaves en Github</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>clone // checkout</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									<a href="http://git-scm.com/docs/git-clone">
+										clone
+									</a> -
+									Clonar y/o descargar un código desde github.
+								</p>
+								<p>
+									<a href="http://git-scm.com/docs/git-checkout" target="_blank">
+										checkout
+									</a> -
+									Dentro de un mismo repositorio cambiar a un tag o branch.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>commit</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									<a href="http://git-scm.com/docs/git-commit" target="_blank">
+										commit
+									</a> -
+									Anotar o crear una revisi&oacute;n al repositorio local.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>pull // push</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									<a href="http://git-scm.com/docs/git-pull" target="_blank">
+										pull
+									</a> -
+									Descargar de un repositorio remoto las anotaciones o cambios.
+								</p>
+								<p>
+									<a href="http://git-scm.com/docs/git-push" target="_blank">
+										push
+									</a> -
+									Subir a un repositorio remoto las anotaciones o cambios.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>branch // tag</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									<a href="http://git-scm.com/docs/git-branch" target="_blank">
+										branch
+									</a> -
+									Crear una rama en el repositorio local.
+								</p>
+								<p>
+									<a href="http://git-scm.com/docs/git-tag" target="_blank">
+										tag
+									</a> -
+									Crear una etiqueta en el repositorio local.
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="cd-slider-content">
+							<div class="content-wrapper">
+								<h2>Hooks</h2>
+								<p>&nbsp;</p><p>&nbsp;</p>
+								<p>
+									<a href="http://githooks.com/" target="_blank">
+										hooks
+									</a> -
+									Disparador para automatizar procesos y/o actividades rutinarias.
+							</div>
+						</div>
+					</li>
+				</ol> <!-- .sub-slides -->
 			</li>
 
 			<li id="slide-4">
 				<div class="cd-slider-content">
 					<div class="content-wrapper">
-						<h2>Slider #4</h2>
+						<h2>Dudas ¡?</h2>
+						<p>&nbsp;</p><p>&nbsp;</p>
+						<p>
+							<a href="http://git-scm.com/docs/git-push">
+								Documentaci&oacute;n
+							</a>
+						</p>
 					</div>
 				</div>
 			</li>
 
-			<li id="slide-5">
-				<div class="cd-slider-content">
-					<div class="content-wrapper">
-						<h2>Slider #5</h2>
-					</div>
-				</div>
-			</li>
-
-			<li id="slide-6">
-				<ol class="sub-slides">
-					<li>
-						<div class="cd-slider-content">
-							<div class="content-wrapper">
-								<h2>Slider #6</h2>
-							</div>
-						</div>
-					</li>
-					
-					<li>
-						<div class="cd-slider-content">
-							<div class="content-wrapper">
-								<h2>Slider #6 - Sub #1</h2>
-							</div>
-						</div>
-					</li>
-
-					<li>
-						<div class="cd-slider-content">
-							<div class="content-wrapper">
-								<h2>Slider #6 - Sub #2</h2>
-							</div>
-						</div>
-					</li>
-				</ol> <!-- .sub-slides -->
-			</li>
 		</ol> <!-- .cd-slideshow -->
 	</div> <!-- .cd-slideshow-wrapper -->
-	
+
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->

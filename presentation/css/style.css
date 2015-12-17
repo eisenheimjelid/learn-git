@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -21,13 +21,13 @@ body {
 }
 
 a {
-  color: #d25555;
+  color: #eee;
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Slideshow 
+Slideshow
 
 -------------------------------- */
 .cd-slideshow-wrapper {
@@ -79,7 +79,7 @@ Slideshow
   float: left;
 }
 .cd-slideshow .slider-dots {
-  /* 
+  /*
   	dots visible on mobile when a slide has sub-slides
   	you won't see this element in the html - created using jQuery
   */
@@ -108,8 +108,8 @@ Slideshow
   margin-right: 0;
 }
 .cd-slideshow.remove-transitions {
-  /* 
-  	remove transition on transforms 
+  /*
+  	remove transition on transforms
   	used to switch form a slide to another from the main navigation
   */
   -webkit-transition: -webkit-transform 0s;
@@ -152,7 +152,7 @@ Slideshow
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Slide Content
 
@@ -171,22 +171,31 @@ Slide Content
   background-color: #d25555;
 }
 .cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper {
-  background: #d25555;
+  background: #e3e3e3;
 }
+
+.cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper h2,
+.cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper h3,
+.cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper p,
+.cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper a
+{
+  color: #111;
+}
+
 .cd-slideshow > li:nth-of-type(2) .cd-slider-content .content-wrapper {
-  background: #2b3158;
+  background: #4F5B93; /* #8892BF */
 }
 .cd-slideshow > li:nth-of-type(3) .cd-slider-content .content-wrapper {
-  background: #56b456;
+  background: #4F5B93; /* #8892BF */
 }
 .cd-slideshow > li:nth-of-type(4) .cd-slider-content .content-wrapper {
-  background: #52bccf;
+  background: #4F5B93; /* #8892BF */
 }
 .cd-slideshow > li:nth-of-type(5) .cd-slider-content .content-wrapper {
-  background: #df8a2f;
+  background: #4F5B93; /* #8892BF */
 }
 .cd-slideshow > li:nth-of-type(6) .cd-slider-content .content-wrapper {
-  background: #c14fce;
+  background: #4F5B93; /* #8892BF */
 }
 .cd-slider-content h2 {
   font-size: 3rem;
@@ -262,7 +271,7 @@ Slide Content
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Slideshow Navigation
 
@@ -363,27 +372,27 @@ Slideshow Navigation
   }
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(1) a:hover::before,
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(1) li a:hover::before {
-    background: #d25555;
+    background: #e3e3e3;
   }
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(2) a:hover::before,
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(2) li a:hover::before {
-    background: #2b3158;
+    background: #4F5B93; /* #8892BF */
   }
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(3) a:hover::before,
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(3) li a:hover::before {
-    background: #56b456;
+    background: #4F5B93; /* #8892BF */
   }
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(4) a:hover::before,
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(4) li a:hover::before {
-    background: #52bccf;
+    background: #4F5B93; /* #8892BF */
   }
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(5) a:hover::before,
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(5) li a:hover::before {
-    background: #df8a2f;
+    background: #4F5B93; /* #8892BF */
   }
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(6) a:hover::before,
   .cd-slideshow-nav .cd-nav-items > ol > li:nth-of-type(6) li a:hover::before {
-    background: #c14fce;
+    background: #4F5B93; /* #8892BF */
   }
 }
 
@@ -477,7 +486,7 @@ Slideshow Navigation
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 no-js
 
@@ -544,4 +553,11 @@ no-js
 
 .no-js .sub-nav {
   display: none;
+}
+
+.logover {
+  max-width: 128px;
+  min-width: 128px;
+  width: 128px;
+  margin-left: 12px;
 }
